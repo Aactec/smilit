@@ -23,6 +23,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
 }
 
 .logo{
@@ -68,7 +71,9 @@ a{
 }
 
 main{
-    background-image: linear-gradient(#ffffff 35%, #ffffffbe), url(../image/hero\ \(2\).jpg);
+    background-image: linear-gradient(#ffffff 35%, #ff8c627c), url(../image/hero\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero{
@@ -358,7 +363,7 @@ section{
 }
 
 .sponsor-logo{
-    background: #d4a9a9;
+    background: #ffcbb8;
     overflow-x: scroll;
     width: 80%;
     margin: auto;
